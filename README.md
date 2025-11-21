@@ -1,6 +1,20 @@
 # MauiWithMvvm
 
-A .NET MAUI mobile application demonstrating MVVM (Model-View-ViewModel) architecture using the Community Toolkit MVVM framework.
+A .NET MAUI mobile application demonstrating MVVM (Model-View-ViewModel) architecture using the Community Toolkit MVVM framework with Constructor Injection.
+
+## Overview
+
+This project showcases best practices for building cross-platform mobile applications with .NET MAUI. It demonstrates:
+
+- **MVVM Pattern Implementation**: Clean separation between UI (View), presentation logic (ViewModel), and data (Model)
+- **Constructor Injection Pattern**: ViewModels are injected through constructors, providing better testability and loose coupling
+- **Source Generators**: Leverages Community Toolkit's source generators for reduced boilerplate code
+- **Counter Application**: Interactive demo showing state management and command binding
+
+This is one of three demonstration projects comparing different MVVM frameworks:
+- **MauiWithMvvm** (this project) - Community Toolkit MVVM with constructor injection
+- **MauiWithPrism** - Service locator pattern with static ServiceProvider
+- **MauiWithMvvmCross** - MvvmCross enterprise framework integration
 
 ## Features
 
