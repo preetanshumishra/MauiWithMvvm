@@ -19,8 +19,7 @@
         ],
         "originalTargetFrameworks": [
           "net10.0-android",
-          "net10.0-ios",
-          "net10.0-maccatalyst"
+          "net10.0-ios"
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
@@ -33,10 +32,6 @@
           },
           "net10.0-ios26.1": {
             "targetAlias": "net10.0-ios",
-            "projectReferences": {}
-          },
-          "net10.0-maccatalyst26.1": {
-            "targetAlias": "net10.0-maccatalyst",
             "projectReferences": {}
           }
         },
@@ -156,59 +151,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
-        },
-        "net10.0-maccatalyst26.1": {
-          "targetAlias": "net10.0-maccatalyst",
-          "dependencies": {
-            "CommunityToolkit.Mvvm": {
-              "target": "Package",
-              "version": "[8.4.0, )"
-            },
-            "Microsoft.Maui.Controls": {
-              "target": "Package",
-              "version": "[10.0.10, )"
-            },
-            "Microsoft.NET.ILLink.Tasks": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[10.0.0, )",
-              "autoReferenced": true
-            }
-          },
-          "imports": [
-            "xamarinios10",
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[10.0.0, 10.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[10.0.0, 10.0.0]"
-            }
-          ],
-          "frameworkReferences": {
-            "Microsoft.MacCatalyst": {
-              "privateAssets": "all"
-            },
-            "Microsoft.MacCatalyst.Runtimes": {
-              "privateAssets": "all"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -219,9 +161,6 @@
           "#import": []
         },
         "iossimulator-arm64": {
-          "#import": []
-        },
-        "maccatalyst-arm64": {
           "#import": []
         }
       }
