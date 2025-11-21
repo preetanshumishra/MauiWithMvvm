@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MauiWithMvvm</name>
+    </assembly>
+    <members>
+        <member name="T:MauiWithMvvm.ViewModels.BaseViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:MauiWithMvvm.ViewModels.BaseViewModel.IsBusy">
+            <inheritdoc cref="F:MauiWithMvvm.ViewModels.BaseViewModel._isBusy"/>
+        </member>
+        <member name="P:MauiWithMvvm.ViewModels.BaseViewModel.Title">
+            <inheritdoc cref="F:MauiWithMvvm.ViewModels.BaseViewModel._title"/>
+        </member>
+        <member name="T:MauiWithMvvm.ViewModels.MainViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MauiWithMvvm.ViewModels.MainViewModel.WelcomeText">
+            <inheritdoc cref="F:MauiWithMvvm.ViewModels.MainViewModel._welcomeText"/>
+        </member>
+        <member name="P:MauiWithMvvm.ViewModels.MainViewModel.Counter">
+            <inheritdoc cref="F:MauiWithMvvm.ViewModels.MainViewModel._counter"/>
+        </member>
+        <member name="F:MauiWithMvvm.ViewModels.MainViewModel.incrementCounterCommand">
+            <summary>The backing field for <see cref="P:MauiWithMvvm.ViewModels.MainViewModel.IncrementCounterCommand"/>.</summary>
+        </member>
+        <member name="P:MauiWithMvvm.ViewModels.MainViewModel.IncrementCounterCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MauiWithMvvm.ViewModels.MainViewModel.IncrementCounter"/>.</summary>
+        </member>
+        <member name="T:MauiWithMvvm.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.WelcomeText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "WelcomeText" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Counter">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Counter" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.WelcomeText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "WelcomeText" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Counter">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Counter" generated properties.</summary>
+        </member>
+    </members>
+</doc>
