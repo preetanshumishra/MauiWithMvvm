@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MauiWithMvvm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+1a9c721e6da7b00cc183d6432743875748899ca3")]
 [assembly: System.Reflection.AssemblyProductAttribute("MauiWithMvvm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MauiWithMvvm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
